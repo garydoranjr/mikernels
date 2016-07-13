@@ -1,0 +1,16 @@
+*.swp
+*.swn
+*.swo
+*.pyc
+*.pdf
+*.eps
+*.aux
+*.out
+*.log
+*.bl
+*.bbl
+*.blg
+*.o*
+results
+.blacklist
+*.mex*
