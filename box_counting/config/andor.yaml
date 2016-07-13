@@ -1,0 +1,469 @@
+experiments:
+    - dataset: musk1
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: musk1
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 1
+
+    - dataset: musk2
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: musk2
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 1
+
+    - dataset: trx
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: apple~cokecan
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: banana~goldmedal
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: dirtyworkgloves~dirtyrunningshoe
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: wd40can~largespoon
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: checkeredscarf~dataminingbook
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: juliespot~rapbook
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: smileyfacedoll~feltflowerrug
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: stripednotebook~greenteabox
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: cardboardbox~candlewithholder
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: bluescrunge~ajaxorange
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: woodrollingpin~translucentbowl
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: fabricsoftenerbox~glazedwoodpot
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: BRCR
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    #- dataset: CBCH
+    #  ktype: andor
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: DEJU
+    #  ktype: andor
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: HAFL
+    #  ktype: andor
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: HETH
+    #  ktype: andor
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: HEWA
+    #  ktype: andor
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: OSFL
+    #  ktype: andor
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: PSFL
+    #  ktype: andor
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: RBNU
+    #  ktype: andor
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: SWTH
+    #  ktype: andor
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: VATH
+    #  ktype: andor
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: WETA
+    #  ktype: andor
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: WIWR
+    #  ktype: andor
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    - dataset: elephant
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: tiger
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: fox
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: field
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: flower
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountain
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: alt.atheism
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.graphics
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.os.ms-windows.misc
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.sys.ibm.pc.hardware
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.sys.mac.hardware
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.windows.x
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: misc.forsale
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: rec.autos
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: rec.motorcycles
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: rec.sport.baseball
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: rec.sport.hockey
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sci.crypt
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sci.electronics
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sci.med
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sci.space
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: soc.religion.christian
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: talk.politics.guns
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: talk.politics.mideast
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: talk.politics.misc
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: talk.religion.misc
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: text1
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: text2
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: desert_no_mountains
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: desert_no_sea
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: desert_no_sunset
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: desert_no_trees
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountains_no_desert
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountains_no_sea
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountains_no_sunset
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountains_no_trees
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sea_no_desert
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sea_no_mountains
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sea_no_sunset
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sea_no_trees
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sunset_no_desert
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sunset_no_mountains
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sunset_no_sea
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sunset_no_trees
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: trees_no_desert
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: trees_no_mountains
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: trees_no_sea
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: trees_no_sunset
+      ktype: andor
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+

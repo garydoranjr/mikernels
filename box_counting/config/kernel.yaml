@@ -1,0 +1,937 @@
+experiments:
+    - dataset: musk1
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: musk1
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 1
+
+    - dataset: musk1
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: musk1
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 1
+
+    - dataset: musk2
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: musk2
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 1
+
+    - dataset: musk2
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: musk2
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 1
+
+    - dataset: trx
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: trx
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: apple~cokecan
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: banana~goldmedal
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: dirtyworkgloves~dirtyrunningshoe
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: wd40can~largespoon
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: checkeredscarf~dataminingbook
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: juliespot~rapbook
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: smileyfacedoll~feltflowerrug
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: stripednotebook~greenteabox
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: cardboardbox~candlewithholder
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: bluescrunge~ajaxorange
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: woodrollingpin~translucentbowl
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: fabricsoftenerbox~glazedwoodpot
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: BRCR
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    #- dataset: CBCH
+    #  ktype: and
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: DEJU
+    #  ktype: and
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: HAFL
+    #  ktype: and
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: HETH
+    #  ktype: and
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: HEWA
+    #  ktype: and
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: OSFL
+    #  ktype: and
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: PSFL
+    #  ktype: and
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: RBNU
+    #  ktype: and
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: SWTH
+    #  ktype: and
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: VATH
+    #  ktype: and
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: WETA
+    #  ktype: and
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: WIWR
+    #  ktype: and
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    - dataset: elephant
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: tiger
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: fox
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: field
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: flower
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountain
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: alt.atheism
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.graphics
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.os.ms-windows.misc
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.sys.ibm.pc.hardware
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.sys.mac.hardware
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.windows.x
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: misc.forsale
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: rec.autos
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: rec.motorcycles
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: rec.sport.baseball
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: rec.sport.hockey
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sci.crypt
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sci.electronics
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sci.med
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sci.space
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: soc.religion.christian
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: talk.politics.guns
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: talk.politics.mideast
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: talk.politics.misc
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: talk.religion.misc
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: apple~cokecan
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: banana~goldmedal
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: dirtyworkgloves~dirtyrunningshoe
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: wd40can~largespoon
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: checkeredscarf~dataminingbook
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: juliespot~rapbook
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: smileyfacedoll~feltflowerrug
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: stripednotebook~greenteabox
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: cardboardbox~candlewithholder
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: bluescrunge~ajaxorange
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: woodrollingpin~translucentbowl
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: fabricsoftenerbox~glazedwoodpot
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: BRCR
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    #- dataset: CBCH
+    #  ktype: or
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: DEJU
+    #  ktype: or
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: HAFL
+    #  ktype: or
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: HETH
+    #  ktype: or
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: HEWA
+    #  ktype: or
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: OSFL
+    #  ktype: or
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: PSFL
+    #  ktype: or
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: RBNU
+    #  ktype: or
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: SWTH
+    #  ktype: or
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: VATH
+    #  ktype: or
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: WETA
+    #  ktype: or
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    #- dataset: WIWR
+    #  ktype: or
+    #  epsilon: 0.1
+    #  delta: 0.01
+    #  seed: 0
+
+    - dataset: elephant
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: tiger
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: fox
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: field
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: flower
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountain
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: alt.atheism
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.graphics
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.os.ms-windows.misc
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.sys.ibm.pc.hardware
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.sys.mac.hardware
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: comp.windows.x
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: misc.forsale
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: rec.autos
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: rec.motorcycles
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: rec.sport.baseball
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: rec.sport.hockey
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sci.crypt
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sci.electronics
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sci.med
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sci.space
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: soc.religion.christian
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: talk.politics.guns
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: talk.politics.mideast
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: talk.politics.misc
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: talk.religion.misc
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: text1
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: text1
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: text2
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: text2
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: desert_no_mountains
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: desert_no_mountains
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: desert_no_sea
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: desert_no_sunset
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: desert_no_trees
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountains_no_desert
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountains_no_sea
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountains_no_sunset
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountains_no_trees
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sea_no_desert
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sea_no_mountains
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sea_no_sunset
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sea_no_trees
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sunset_no_desert
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sunset_no_mountains
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sunset_no_sea
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sunset_no_trees
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: trees_no_desert
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: trees_no_mountains
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: trees_no_sea
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: trees_no_sunset
+      ktype: and
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: desert_no_sea
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: desert_no_sunset
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: desert_no_trees
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountains_no_desert
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountains_no_sea
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountains_no_sunset
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: mountains_no_trees
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sea_no_desert
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sea_no_mountains
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sea_no_sunset
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sea_no_trees
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sunset_no_desert
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sunset_no_mountains
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sunset_no_sea
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: sunset_no_trees
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: trees_no_desert
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: trees_no_mountains
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: trees_no_sea
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
+    - dataset: trees_no_sunset
+      ktype: or
+      epsilon: 0.1
+      delta: 0.01
+      seed: 0
+
