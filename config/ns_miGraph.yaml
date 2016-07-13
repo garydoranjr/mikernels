@@ -1,0 +1,72 @@
+# A key uniquely describing the
+# experiments (determines results
+# folder used by server)
+experiment_name: mi_kernels
+
+# A key uniquely describing each experiment
+experiment_key:
+    - dataset
+experiment_key_format:
+    - '%s'
+
+# The key that uniquely describes
+# parameter settings (other parameters
+# are searched)
+parameter_key:
+  - classifier
+  - kernel
+  - base_kernel
+  - delta
+parameter_key_format:
+  - '%s'
+  - '%s'
+  - '%s'
+  - '%f'
+
+# The default [inner, outer] folds to use
+# (can also be specified per experiment)
+folds: [10, 5]
+
+# A list of parameter settings
+# (can also be specified per experiment)
+parameters:
+  - classifier: svm
+    kernel: miGraph
+    base_kernel: rbf
+    delta: 0 # Use heuristic
+    C: ['e-3', 'e5']
+    gamma: ['e-6', 'e1']
+    search:
+        type: random
+        n: 25
+
+  #- classifier: svm
+  #  kernel: miGraph
+  #  base_kernel: linear
+  #  delta: 0 # Use heuristic
+  #  C: ['e-3', 'e5']
+  #  search:
+  #      type: random
+  #      n: 5
+
+experiments:
+    - dataset: desert_no_mountains
+    - dataset: desert_no_sea
+    - dataset: desert_no_sunset
+    - dataset: desert_no_trees
+    - dataset: mountains_no_desert
+    - dataset: mountains_no_sea
+    - dataset: mountains_no_sunset
+    - dataset: mountains_no_trees
+    - dataset: sea_no_desert
+    - dataset: sea_no_mountains
+    - dataset: sea_no_sunset
+    - dataset: sea_no_trees
+    - dataset: sunset_no_desert
+    - dataset: sunset_no_mountains
+    - dataset: sunset_no_sea
+    - dataset: sunset_no_trees
+    - dataset: trees_no_desert
+    - dataset: trees_no_mountains
+    - dataset: trees_no_sea
+    - dataset: trees_no_sunset

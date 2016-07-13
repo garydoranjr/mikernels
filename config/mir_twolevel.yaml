@@ -1,0 +1,62 @@
+# A key uniquely describing the
+# experiments (determines results
+# folder used by server)
+experiment_name: mi_kernels
+
+# A key uniquely describing each experiment
+experiment_key:
+    - dataset
+experiment_key_format:
+    - '%s'
+
+# The key that uniquely describes
+# parameter settings (other parameters
+# are searched)
+parameter_key:
+  - classifier
+  - kernel
+  - base_kernel
+  - second_kernel
+parameter_key_format:
+  - '%s'
+  - '%s'
+  - '%s'
+  - '%s'
+
+# The default [inner, outer] folds to use
+# (can also be specified per experiment)
+folds: [10, 5]
+
+# A list of parameter settings
+# (can also be specified per experiment)
+parameters:
+  - classifier: svr
+    kernel: twolevel
+    base_kernel: rbf
+    second_kernel: rbf
+    C: ['e-1', 'e5']
+    gamma: ['e-6', 'e1']
+    gamma2: ['e-6', 'e1']
+    nu: [0.0, 1.0]
+    search:
+        type: random
+        n: 125
+
+experiments:
+    - dataset: MISR1
+      priority: 1
+    - dataset: MISR2
+      priority: 2
+    - dataset: MODIS
+      priority: 3
+    - dataset: KS_CORN
+      priority: 4
+    - dataset: KS_WHEAT
+      priority: 5
+    - dataset: CA_CORN
+      priority: 6
+    - dataset: CA_WHEAT
+      priority: 7
+    - dataset: thrombin
+      folds: [0, 0] # Use leave-one-out since dataset is small
+      priority: 8

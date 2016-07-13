@@ -1,0 +1,80 @@
+# A key uniquely describing the
+# experiments (determines results
+# folder used by server)
+experiment_name: mi_kernels
+
+# A key uniquely describing each experiment
+experiment_key:
+    - dataset
+experiment_key_format:
+    - '%s'
+
+# The key that uniquely describes
+# parameter settings (other parameters
+# are searched)
+parameter_key:
+  - classifier
+  - kernel
+  - type
+  - epsilon
+  - delta
+parameter_key_format:
+  - '%s'
+  - '%s'
+  - '%s'
+  - '%f'
+  - '%f'
+
+# The default [inner, outer] folds to use
+# (can also be specified per experiment)
+folds: [10, 5]
+
+# A list of parameter settings
+# (can also be specified per experiment)
+parameters:
+  - classifier: svm
+    kernel: box
+    C: ['e-9', 'e0']
+    type: 'andor'
+    gamma: ['e-4', 'e2']
+    epsilon: 0.1
+    delta: 0.25
+    search:
+        type: random
+        n: 25
+
+  - classifier: svm
+    kernel: box
+    C: ['e-9', 'e0']
+    type: 'andor'
+    gamma: ['e-4', 'e2']
+    epsilon: 0.01
+    delta: 0.1
+    search:
+        type: random
+        n: 25
+
+  - classifier: svm
+    kernel: box
+    C: ['e-9', 'e0']
+    type: 'and'
+    gamma: ['e-4', 'e2']
+    epsilon: 0.1
+    delta: 0.25
+    search:
+        type: random
+        n: 25
+
+  - classifier: svm
+    kernel: box
+    C: ['e-9', 'e0']
+    type: 'and'
+    gamma: ['e-4', 'e2']
+    epsilon: 0.01
+    delta: 0.1
+    search:
+        type: random
+        n: 25
+
+experiments:
+    - dataset: musk1

@@ -1,0 +1,96 @@
+# A key uniquely describing the
+# experiments (determines results
+# folder used by server)
+experiment_name: mi_kernels
+
+# A key uniquely describing each experiment
+experiment_key:
+    - dataset
+experiment_key_format:
+    - '%s'
+
+# The key that uniquely describes
+# parameter settings (other parameters
+# are searched)
+parameter_key:
+  - classifier
+  - kernel
+  - metric
+parameter_key_format:
+  - '%s'
+  - '%s'
+  - '%s'
+
+# The default [inner, outer] folds to use
+# (can also be specified per experiment)
+folds: [10, 5]
+
+# A list of parameter settings
+# (can also be specified per experiment)
+parameters:
+  - classifier: svm
+    kernel: distance_rbf
+    metric: emd
+    C: ['e-3', 'e5']
+    gamma: ['e-6', 'e1']
+    search:
+        type: random
+        n: 25
+
+experiments:
+    - dataset: musk1
+    - dataset: elephant
+    - dataset: fox
+    - dataset: tiger
+    - dataset: musk2
+    - dataset: alt.atheism
+    - dataset: comp.graphics
+    - dataset: comp.os.ms-windows.misc
+    - dataset: comp.sys.ibm.pc.hardware
+    - dataset: comp.sys.mac.hardware
+    - dataset: comp.windows.x
+    - dataset: misc.forsale
+    - dataset: rec.autos
+    - dataset: rec.motorcycles
+    - dataset: rec.sport.baseball
+    - dataset: rec.sport.hockey
+    - dataset: sci.crypt
+    - dataset: sci.electronics
+    - dataset: sci.med
+    - dataset: sci.space
+    - dataset: soc.religion.christian
+    - dataset: talk.politics.guns
+    - dataset: talk.politics.mideast
+    - dataset: talk.politics.misc
+    - dataset: talk.religion.misc
+    - dataset: field
+    - dataset: flower
+    - dataset: mountain
+    - dataset: apple~cokecan
+    - dataset: banana~goldmedal
+    - dataset: dirtyworkgloves~dirtyrunningshoe
+    - dataset: wd40can~largespoon
+    - dataset: checkeredscarf~dataminingbook
+    - dataset: juliespot~rapbook
+    - dataset: smileyfacedoll~feltflowerrug
+    - dataset: stripednotebook~greenteabox
+    - dataset: cardboardbox~candlewithholder
+    - dataset: bluescrunge~ajaxorange
+    - dataset: woodrollingpin~translucentbowl
+    - dataset: fabricsoftenerbox~glazedwoodpot
+    - dataset: BRCR
+    - dataset: WIWR
+    - dataset: PSFL
+    - dataset: RBNU
+    - dataset: DEJU
+    - dataset: OSFL
+    - dataset: HETH
+    - dataset: CBCH
+    - dataset: VATH
+    - dataset: HEWA
+    - dataset: SWTH
+    - dataset: HAFL
+    - dataset: WETA
+    - dataset: trx
+    - dataset: text1
+    - dataset: text2

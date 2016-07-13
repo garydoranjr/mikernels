@@ -1,0 +1,61 @@
+# A key uniquely describing the
+# experiments (determines results
+# folder used by server)
+experiment_name: mi_kernels
+
+# A key uniquely describing each experiment
+experiment_key:
+    - dataset
+experiment_key_format:
+    - '%s'
+
+# The key that uniquely describes
+# parameter settings (other parameters
+# are searched)
+parameter_key:
+  - classifier
+  - kernel
+  - edge_kernel
+  - node_kernel
+  - epsilon
+parameter_key_format:
+  - '%s'
+  - '%s'
+  - '%s'
+  - '%s'
+  - '%f'
+
+# The default [inner, outer] folds to use
+# (can also be specified per experiment)
+folds: [10, 5]
+
+experiments:
+    - dataset: musk2
+      parameters:
+        - classifier: svm
+          kernel: MIGraph
+          edge_kernel: rbf
+          node_kernel: rbf
+          epsilon: 0 # Use heuristic
+          C: ['e-3', 'e5']
+          edge_gamma: ['e-6', 'e1']
+          node_gamma: ['e-6', 'e1']
+          max_edges: 5000
+          search:
+              type: random
+              n: 125
+
+    - dataset: trx
+      parameters:
+        - classifier: svm
+          kernel: MIGraph
+          edge_kernel: rbf
+          node_kernel: rbf
+          epsilon: 0 # Use heuristic
+          C: ['e-3', 'e5']
+          edge_gamma: ['e-6', 'e1']
+          node_gamma: ['e-6', 'e1']
+          max_edges: 500
+          search:
+              type: random
+              n: 125

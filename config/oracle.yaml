@@ -1,0 +1,85 @@
+# A key uniquely describing the
+# experiments (determines results
+# folder used by server)
+experiment_name: mi_kernels
+
+# A key uniquely describing each experiment
+experiment_key:
+    - dataset
+experiment_key_format:
+    - '%s'
+
+# The key that uniquely describes
+# parameter settings (other parameters
+# are searched)
+parameter_key:
+  - classifier
+  - kernel
+  - base_kernel
+parameter_key_format:
+  - '%s'
+  - '%s'
+  - '%s'
+
+# The default [inner, outer] folds to use
+# (can also be specified per experiment)
+folds: [10, 5]
+
+# A list of parameter settings
+# (can also be specified per experiment)
+parameters:
+  - classifier: svm
+    kernel: oracle
+    base_kernel: rbf
+    C: ['e-3', 'e5']
+    gamma: ['e-6', 'e1']
+    search:
+        type: random
+        n: 25
+
+experiments:
+    - dataset: alt.atheism+oracle
+    - dataset: comp.graphics+oracle
+    - dataset: comp.os.ms-windows.misc+oracle
+    - dataset: comp.sys.ibm.pc.hardware+oracle
+    - dataset: comp.sys.mac.hardware+oracle
+    - dataset: comp.windows.x+oracle
+    - dataset: misc.forsale+oracle
+    - dataset: rec.autos+oracle
+    - dataset: rec.motorcycles+oracle
+    - dataset: rec.sport.baseball+oracle
+    - dataset: rec.sport.hockey+oracle
+    - dataset: sci.crypt+oracle
+    - dataset: sci.electronics+oracle
+    - dataset: sci.med+oracle
+    - dataset: sci.space+oracle
+    - dataset: soc.religion.christian+oracle
+    - dataset: talk.politics.guns+oracle
+    - dataset: talk.politics.mideast+oracle
+    - dataset: talk.politics.misc+oracle
+    - dataset: talk.religion.misc+oracle
+    - dataset: apple~cokecan+oracle
+    - dataset: banana~goldmedal+oracle
+    - dataset: dirtyworkgloves~dirtyrunningshoe+oracle
+    - dataset: wd40can~largespoon+oracle
+    - dataset: checkeredscarf~dataminingbook+oracle
+    - dataset: juliespot~rapbook+oracle
+    - dataset: smileyfacedoll~feltflowerrug+oracle
+    - dataset: stripednotebook~greenteabox+oracle
+    - dataset: cardboardbox~candlewithholder+oracle
+    - dataset: bluescrunge~ajaxorange+oracle
+    - dataset: woodrollingpin~translucentbowl+oracle
+    - dataset: fabricsoftenerbox~glazedwoodpot+oracle
+    - dataset: BRCR+oracle
+    - dataset: WIWR+oracle
+    - dataset: PSFL+oracle
+    - dataset: RBNU+oracle
+    - dataset: DEJU+oracle
+    - dataset: OSFL+oracle
+    - dataset: HETH+oracle
+    - dataset: CBCH+oracle
+    - dataset: VATH+oracle
+    - dataset: HEWA+oracle
+    - dataset: SWTH+oracle
+    - dataset: HAFL+oracle
+    - dataset: WETA+oracle
